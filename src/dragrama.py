@@ -4,7 +4,7 @@ from diagrams.aws.database import RDS, Redshift
 from diagrams.aws.integration import SQS
 from diagrams.aws.network import ALB, Route53
 from diagrams.aws.storage import S3
-from diagrams.onprem.client import User  # Importando o ícone de usuário
+from diagrams.onprem.client import User 
 
 with Diagram("Loja de Jogos Retrô", show=False):
     cliente = User("Cliente")  # Ícone de usuário representando o cliente
